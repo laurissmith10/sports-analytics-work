@@ -1,0 +1,21 @@
+match_id,matchday,date,home_team,away_team,home_goals,away_goals,attendance,home_shots,away_shots
+1,1,2026-09-05,Lagos FC,Abuja United,1,0,18500,14,9
+2,1,2026-09-05,Kano City,Ibadan Warriors,0,0,12200,10,11
+3,2,2026-09-12,Lagos FC,Kano City,2,0,19200,17,7
+4,2,2026-09-12,Ibadan Warriors,Harcourt Dockers,2,2,9800,8,13
+5,3,2026-09-19,Abuja United,Ibadan Warriors,3,3,15400,11,10
+6,3,2026-09-19,Kano City,Harcourt Dockers,1,0,11800,12,8
+7,4,2026-09-26,Lagos FC,Ibadan Warriors,4,4,18900,15,6
+8,4,2026-09-26,Abuja United,Harcourt Dockers,0,0,15700,13,11
+9,5,2026-10-03,Lagos FC,Harcourt Dockers,1,0,19400,12,12
+10,5,2026-10-03,Abuja United,Kano City,4,1,15100,9,14
+11,6,2026-10-10,Abuja United,Lagos FC,1,3,17800,10,16
+12,6,2026-10-10,Ibadan Warriors,Kano City,1,2,10100,11,8
+13,7,2026-10-17,Kano City,Lagos FC,0,1,12500,9,13
+14,7,2026-10-17,Harcourt Dockers,Ibadan Warriors,1,3,8900,11,7
+15,8,2026-10-24,Ibadan Warriors,Abuja United,1,1,9700,7,12
+16,8,2026-10-24,Harcourt Dockers,Kano City,0,1,9300,15,6
+17,9,2026-10-31,Ibadan Warriors,Lagos FC,1,2,9900,8,11
+18,9,2026-10-31,Harcourt Dockers,Abuja United,1,1,9200,13,12
+19,10,2026-11-07,Harcourt Dockers,Lagos FC,0,0,9600,9,15
+20,10,2026-11-07,Kano City,Abuja United,2,0,11400,10,10
