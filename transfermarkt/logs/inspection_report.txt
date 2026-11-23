@@ -1,0 +1,205 @@
+
+===== appearances.csv =====
+Rows: 1,894,350 | Columns: 13
+Columns: ['appearance_id', 'game_id', 'player_id', 'player_club_id', 'player_current_club_id', 'date', 'player_name', 'competition_id', 'yellow_cards', 'red_cards', 'goals', 'assists', 'minutes_played']
+Share of missing values (top 10 columns):
+player_name               0.0
+game_id                   0.0
+player_id                 0.0
+player_club_id            0.0
+appearance_id             0.0
+player_current_club_id    0.0
+date                      0.0
+competition_id            0.0
+yellow_cards              0.0
+red_cards                 0.0
+dtype: float64
+Date range of 'date': 2012-07-03 00:00:00 -> 2026-06-28 00:00:00
+
+===== club_games.csv =====
+Rows: 177,916 | Columns: 11
+Columns: ['game_id', 'club_id', 'own_goals', 'own_position', 'own_manager_name', 'opponent_id', 'opponent_goals', 'opponent_position', 'opponent_manager_name', 'hosting', 'is_win']
+Share of missing values (top 10 columns):
+own_position             0.285
+opponent_position        0.285
+opponent_manager_name    0.009
+own_manager_name         0.009
+own_goals                0.000
+game_id                  0.000
+club_id                  0.000
+opponent_goals           0.000
+opponent_id              0.000
+hosting                  0.000
+dtype: float64
+
+===== clubs.csv =====
+Rows: 796 | Columns: 17
+Columns: ['club_id', 'club_code', 'name', 'domestic_competition_id', 'total_market_value', 'squad_size', 'average_age', 'foreigners_number', 'foreigners_percentage', 'national_team_players', 'stadium_name', 'stadium_seats', 'net_transfer_record', 'coach_name', 'last_season', 'filename', 'url']
+Share of missing values (top 10 columns):
+total_market_value         1.000
+coach_name                 0.494
+foreigners_percentage      0.075
+average_age                0.048
+club_id                    0.000
+domestic_competition_id    0.000
+name                       0.000
+squad_size                 0.000
+club_code                  0.000
+foreigners_number          0.000
+dtype: float64
+
+===== competitions.csv =====
+Rows: 65 | Columns: 11
+Columns: ['competition_id', 'competition_code', 'name', 'sub_type', 'type', 'country_id', 'country_name', 'domestic_league_code', 'confederation', 'total_clubs', 'url']
+Share of missing values (top 10 columns):
+total_clubs             0.231
+country_name            0.185
+domestic_league_code    0.185
+name                    0.000
+competition_code        0.000
+competition_id          0.000
+sub_type                0.000
+country_id              0.000
+type                    0.000
+confederation           0.000
+dtype: float64
+
+===== countries.csv =====
+Rows: 124 | Columns: 8
+Columns: ['country_id', 'country_name', 'country_code', 'confederation', 'total_clubs', 'total_players', 'average_age', 'url']
+Share of missing values (top 10 columns):
+country_id       0.0
+country_name     0.0
+country_code     0.0
+confederation    0.0
+total_clubs      0.0
+total_players    0.0
+average_age      0.0
+url              0.0
+dtype: float64
+
+===== game_events.csv =====
+Rows: 1,274,469 | Columns: 11
+Columns: ['game_event_id', 'date', 'game_id', 'minute', 'type', 'club_id', 'club_name', 'player_id', 'description', 'player_in_id', 'player_assist_id']
+Share of missing values (top 10 columns):
+player_assist_id    0.852
+player_in_id        0.505
+description         0.073
+game_id             0.000
+date                0.000
+game_event_id       0.000
+minute              0.000
+club_name           0.000
+club_id             0.000
+type                0.000
+dtype: float64
+Date range of 'date': 2006-06-09 00:00:00 -> 2026-07-06 00:00:00
+
+===== game_lineups.csv =====
+Rows: 3,179,016 | Columns: 10
+Columns: ['game_lineups_id', 'date', 'game_id', 'player_id', 'club_id', 'player_name', 'type', 'position', 'number', 'team_captain']
+Share of missing values (top 10 columns):
+position           0.0
+game_lineups_id    0.0
+date               0.0
+game_id            0.0
+club_id            0.0
+player_id          0.0
+player_name        0.0
+type               0.0
+number             0.0
+team_captain       0.0
+dtype: float64
+Date range of 'date': 2013-07-02 00:00:00 -> 2026-07-06 00:00:00
+
+===== games.csv =====
+Rows: 88,958 | Columns: 23
+Columns: ['game_id', 'competition_id', 'season', 'round', 'date', 'home_club_id', 'away_club_id', 'home_club_goals', 'away_club_goals', 'home_club_position', 'away_club_position', 'home_club_manager_name', 'away_club_manager_name', 'stadium', 'attendance', 'referee', 'url', 'home_club_formation', 'away_club_formation', 'home_club_name', 'away_club_name', 'aggregate', 'competition_type']
+Share of missing values (top 10 columns):
+away_club_position        0.285
+home_club_position        0.285
+attendance                0.121
+home_club_formation       0.092
+away_club_formation       0.091
+competition_type          0.014
+away_club_manager_name    0.009
+home_club_manager_name    0.009
+referee                   0.008
+stadium                   0.003
+dtype: float64
+Date range of 'date': 2006-06-09 00:00:00 -> 2026-07-06 00:00:00
+
+===== national_teams.csv =====
+Rows: 124 | Columns: 17
+Columns: ['national_team_id', 'name', 'team_code', 'country_id', 'country_name', 'country_code', 'confederation', 'team_image_url', 'squad_size', 'average_age', 'foreigners_number', 'foreigners_percentage', 'total_market_value', 'coach_name', 'fifa_ranking', 'last_season', 'url']
+Share of missing values (top 10 columns):
+coach_name               1.000
+foreigners_percentage    0.065
+total_market_value       0.032
+confederation            0.008
+national_team_id         0.000
+country_name             0.000
+name                     0.000
+country_id               0.000
+team_code                0.000
+squad_size               0.000
+dtype: float64
+
+===== player_valuations.csv =====
+Rows: 656,301 | Columns: 6
+Columns: ['player_id', 'date', 'market_value_in_eur', 'current_club_name', 'current_club_id', 'player_club_domestic_competition_id']
+Share of missing values (top 10 columns):
+player_club_domestic_competition_id    0.142
+player_id                              0.000
+date                                   0.000
+market_value_in_eur                    0.000
+current_club_name                      0.000
+current_club_id                        0.000
+dtype: float64
+Date range of 'date': 2000-01-20 00:00:00 -> 2026-06-12 00:00:00
+
+===== players.csv =====
+Rows: 50,149 | Columns: 26
+Columns: ['player_id', 'first_name', 'last_name', 'name', 'last_season', 'current_club_id', 'player_code', 'country_of_birth', 'city_of_birth', 'country_of_citizenship', 'date_of_birth', 'sub_position', 'position', 'foot', 'height_in_cm', 'contract_expiration_date', 'agent_name', 'image_url', 'international_caps', 'international_goals', 'current_national_team_id', 'url', 'current_club_domestic_competition_id', 'current_club_name', 'market_value_in_eur', 'highest_market_value_in_eur']
+Share of missing values (top 10 columns):
+current_national_team_id       0.935
+international_caps             0.614
+international_goals            0.614
+agent_name                     0.465
+contract_expiration_date       0.370
+highest_market_value_in_eur    0.172
+market_value_in_eur            0.172
+foot                           0.118
+country_of_birth               0.117
+city_of_birth                  0.112
+dtype: float64
+Date range of 'date_of_birth': 1968-07-31 00:00:00 -> 2011-02-23 00:00:00
+Date range of 'contract_expiration_date': 2000-05-31 00:00:00 -> 2035-06-30 00:00:00
+
+===== transfers.csv =====
+Rows: 175,165 | Columns: 10
+Columns: ['player_id', 'transfer_date', 'transfer_season', 'from_club_id', 'to_club_id', 'from_club_name', 'to_club_name', 'transfer_fee', 'market_value_in_eur', 'player_name']
+Share of missing values (top 10 columns):
+market_value_in_eur    0.389
+transfer_fee           0.351
+transfer_date          0.000
+player_id              0.000
+transfer_season        0.000
+from_club_id           0.000
+from_club_name         0.000
+to_club_id             0.000
+to_club_name           0.000
+player_name            0.000
+dtype: float64
+Date range of 'transfer_date': 1993-07-01 00:00:00 -> 2030-06-30 00:00:00
+
+===== Valuation points per player =====
+count    41528.000000
+mean        15.803819
+std          9.823933
+min          1.000000
+25%          8.000000
+50%         15.000000
+75%         23.000000
+max         57.000000
+dtype: float64
