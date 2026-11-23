@@ -1,0 +1,6 @@
+# Collection log
+- Date of download: 2026-11-23
+- Source (URL): (https://github.com/dcaribou/transfermarkt-datasets)
+- Version / release / commit: ...
+- Files: players.csv (xx MB), games.csv (xx MB), ...
+- Downloaded by: Lauris Smith
